@@ -1,8 +1,10 @@
-const myVar = ['Best School', 'Best', 'nothing'];
- if (myVar.includes('Best') && myVar.includes('School')){
+const myVar = ('Best School');
+ if (myVar === 'Best School')){
     console.log('Arguments found');
-} else if (myVar.includes('Best') || myVar.includes('2')){
+} else if (myVar == "Best School"){
     console.log('Argument found');
-} else{
+} else if{myVar !== "Bougie"
     console.log('No argument');
-    }
+}else{
+    console.log(print)
+}
