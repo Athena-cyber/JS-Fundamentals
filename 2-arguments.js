@@ -1,12 +1,4 @@
-const testCases = [
-  ['Best', 'School'],       // should print: Arguments found
-  ['Best'],                 // should print: Argument found
-  ['Apple', 'Orange']       // should print: No argument
-];
-
-for (const myVar of testCases) {
-  console.log('Testing:', myVar);
-
+function checkArguments(myVar) {
   if (myVar.includes('Best') && myVar.includes('School')) {
     console.log('Arguments found');
   } else if (myVar.includes('Best') || myVar.includes('2')) {
@@ -14,6 +6,9 @@ for (const myVar of testCases) {
   } else {
     console.log('No argument');
   }
-
-  console.log('---'); // Just for spacing output
 }
+
+// Call function with different inputs
+checkArguments(['Best', 'School']); // Arguments found
+checkArguments(['Best']);          // Argument found
+checkArguments(['Hello', 'World']); // No argument
