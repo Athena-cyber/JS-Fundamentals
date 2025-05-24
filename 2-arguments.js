@@ -1,11 +1,19 @@
-let myVar = ['Best', 'School']
+const testCases = [
+  ['Best', 'School'],       // should print: Arguments found
+  ['Best'],                 // should print: Argument found
+  ['Apple', 'Orange']       // should print: No argument
+];
 
-if (myVar.includes('Best') && myVar.includes('School')){
+for (const myVar of testCases) {
+  console.log('Testing:', myVar);
+
+  if (myVar.includes('Best') && myVar.includes('School')) {
     console.log('Arguments found');
-}else if (myVar.includes('Best') || myVar.includes('2')){
+  } else if (myVar.includes('Best') || myVar.includes('2')) {
     console.log('Argument found');
-} else{
+  } else {
     console.log('No argument');
-    }
+  }
 
-
+  console.log('---'); // Just for spacing output
+}
