@@ -1,4 +1,4 @@
-const myVar = ['Best', 'School']
+let myVar = ['Best', 'School']
 
 if (myVar.includes('Best') && myVar.includes('School')){
     console.log('Arguments found');
@@ -8,7 +8,7 @@ if (myVar.includes('Best') && myVar.includes('School')){
     console.log('No argument');
     }
 
-    const myVar = ['Best'];
+    let myVar = ['Best'];
 
 if (myVar.includes('Best') && myVar.includes('School')) {
     console.log('Arguments found');
@@ -19,7 +19,7 @@ if (myVar.includes('Best') && myVar.includes('School')) {
 }
 
 
-const myVar = ['Apple', 'Orange'];
+let myVar = ['Apple', 'Orange'];
 
 if (myVar.includes('Best') && myVar.includes('School')) {
     console.log('Arguments found');
