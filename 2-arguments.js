@@ -1,4 +1,4 @@
-let myVar = 'p@ssword'
+let myVar = 'password'
 
 if (myVar.length >= 8 && myVar.includes('@')){
     console.log('Arguments found');
