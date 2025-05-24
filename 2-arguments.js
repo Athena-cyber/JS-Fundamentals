@@ -1,10 +1,11 @@
-const myVar = ('Best School');
- if (myVar === 'Best School'){
-    console.log('Arguments found');
-} else if (myVar == "Best School"){
-    console.log('Argument found');
-} else if (myVar !== "Bougie"){
-    console.log('No argument');
-}else{
-    console.log(print)
+const { argv } = require("node:process");
+const args = argv.slice(2);
+if (args[0]) {
+  if (args.length > 1) {
+    console.log("Arguments found");
+  } else {
+    console.log("Argument found");
+  }
+} else {
+  console.log("No argument");
 }
