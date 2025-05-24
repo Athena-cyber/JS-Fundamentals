@@ -2,10 +2,8 @@ let myVar = 'p@ssword'
 
 if (myVar.length >= 8 && myVar.includes('@')){
     console.log('Arguments found');
-
-  let myVar1 = 'password'
-}else if (myVar.length >= 8 || myVar1.includes('@')){
+}else if (myVar.length >= 8 || myVar.includes('@')){
     console.log('Argument found');
-} else(myVar2.length <= 8) {
+} else{
     console.log('No argument');
     }
