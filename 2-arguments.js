@@ -1,8 +1,8 @@
-let myVar = 'p@ssword'
+let myVar = 'Best School'
 
-if (myVar.length >= 8 && myVar.includes('@')){
+if (myVar.includes('Best') && myVar.includes('School')){
     console.log('Arguments found');
-}else if (myVar.length >= 8 || myVar.includes('@')){
+}else if (myVar.includes('Best') || myVar.includes('@')){
     console.log('Argument found');
 } else{
     console.log('No argument');
