@@ -1,9 +1,8 @@
-let myVar = "Best School"
+const { argv } = require("node:process");
+const args = argv.slice(2);
 
-if (myVar.includes('0')){
-    console.log('Argument found');
-}else if (myVar.includes(School)){
-    console.log(HTTM)
-}else {
-    console.log("No argument")
+if (args[0]) {
+  console.log(args[0]);
+} else {
+  console.log("No argument");
 }
