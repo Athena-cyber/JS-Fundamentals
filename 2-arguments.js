@@ -2,7 +2,7 @@ let myVar = 'Best School'
 
 if (myVar.includes('Best') && myVar.includes('School')){
     console.log('Arguments found');
-}else if (myVar.includes('Best') || myVar.includes('@')){
+}else if (myVar.includes('Best'){
     console.log('Argument found');
 } else{
     console.log('No argument');
