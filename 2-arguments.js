@@ -1,4 +1,4 @@
-const myVar = 'Best School'
+const myVar = ['Best School','Best']
 
 if (myVar.includes('Best') && myVar.includes('School')){
     console.log('Arguments found');
